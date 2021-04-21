@@ -1,0 +1,28 @@
+/* 리액트 네이티브에서 Unknown Property 경고를 해결 */
+/* 자동완성도 지원한다고 하는데 테스트 필요 */
+{
+    "compilerOptions": {
+      "plugins": [
+        {
+          "name": "typescript-styled-plugin",
+          "lint": {
+            "validProperties": [
+              "aspect-ratio",
+              "elevation",
+              "margin-vertical",
+              "margin-horizontal",
+              "padding-horizontal",
+              "padding-vertical",
+              "resize-mode",
+              "shadow-color",
+              "shadow-opacity",
+              "shadow-offset",
+              "shadow-radius",
+              "text-align-vertical",
+              "tint-color"
+            ]
+          }
+        }
+      ]
+    }
+}
